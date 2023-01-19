@@ -1,3 +1,4 @@
+
 import { LastImage } from "../components/LastImage";
 import { SliderCard } from "../components/SliderCard";
 import React, { useState } from "react";
@@ -274,3 +275,5 @@ export default function Home() {
     </>
   );
 }
+=======
+
