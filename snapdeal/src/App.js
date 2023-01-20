@@ -6,6 +6,10 @@ import Navbar from './components/Navbar';
 import Footer from './pages/Footer';
 import Home from './pages/Home';
 import { SliderCard } from './components/SliderCard';
+import Login from './pages/Login';
+import Register from './pages/Register';
+
+
 
 
 
@@ -16,10 +20,12 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Navbar/>
+       {/* <Navbar/>
     <Home />
-      <Footer /> */}
-      <SliderCard />
+      <Footer />  */}
+   {/* <Login /> */}
+   <Register />
+    
 
     
  

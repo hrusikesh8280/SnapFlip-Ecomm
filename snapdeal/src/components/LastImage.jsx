@@ -14,10 +14,11 @@ import {
 
 export const LastImage = () => {
   const images = [
-    "https://images.pexels.com/photos/5625071/pexels-photo-5625071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/7621009/pexels-photo-7621009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://img.freepik.com/free-vector/summer-colection-banner-with-hand-drawn-flowers_1188-312.jpg?w=1380&t=st=1674125182~exp=1674125782~hmac=d7eb387c829a2faaa9f10822be0ee7ce17a61196f46b2c2082dae5ef60ec5a90",
-    "https://images.pexels.com/photos/7621009/pexels-photo-7621009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzmxZcwdU0-ubIF-LDUeHR_4Xd_jgEZ6cw5g&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBn_EaOjuC5tatUq0zos317kymw2WAIiYAg&usqp=CAU",
+    "https://hungamadeal.co.in/wp-content/uploads/2016/06/snapdeal-offer.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzmxZcwdU0-ubIF-LDUeHR_4Xd_jgEZ6cw5g&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBn_EaOjuC5tatUq0zos317kymw2WAIiYAg&usqp=CAU",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const handleNext = () => {
