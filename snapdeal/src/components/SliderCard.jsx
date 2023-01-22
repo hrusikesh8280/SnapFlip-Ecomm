@@ -21,14 +21,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1MKrJ4JINZteilUfxZa2k6a9lVzRORYkxQg&usqp=CAU"
+                    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Rolex Watch</h6>
+                  <h6>Head Phone</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 18000</span>
@@ -57,14 +57,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n3.sdlcdn.com/imgs/k/f/v/Foodstrukk-Quinoa-Hakka-Healthy-Noodles-SDL922372402-3-ac24f.png"
+                    src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Noodles"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Hakka Healthy Noodles</h6>
+                  <h6>Ray-ben Glass</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 100</span>
@@ -95,14 +95,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n4.sdlcdn.com/imgs/k/j/8/large/HIGHLIGHT-FASHION-EXPORT-Blue-Straight-SDL991821680-1-0fa22.webp"
+                    src="https://images.unsplash.com/photo-1609942571926-f3fe26feab26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEzfHxwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Blue Straight Kurta</h6>
+                  <h6>AXE Black Fresh</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 300</span>
@@ -130,14 +130,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n1.sdlcdn.com/imgs/i/z/e/large/Bentag-Vegetable-Fruit-Clever-Cutter-SDL841893040-1-ea5e3.jpg"
+                    src="https://images.unsplash.com/photo-1584735174965-48c48d7edfde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ5fHxwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Fruit Cutter</h6>
+                  <h6>Nike air</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 100</span>
@@ -168,14 +168,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n1.sdlcdn.com/imgs/k/m/s/large/kavylip-50-gm-Slimming-Green-SDL442550836-1-68085.png"
+                    src="https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Lemon Green Tea</h6>
+                  <h6>eleganzze Sweater</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 300</span>
@@ -205,14 +205,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n4.sdlcdn.com/imgs/k/m/f/large/Lifelong-500W-Mixer-Grinder-3-SDL103394891-1-d5df6.webp"
+                    src="https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE2fHxwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Mixer Grinder</h6>
+                  <h6>Fossil Watch</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 2800</span>
@@ -241,14 +241,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n1.sdlcdn.com/imgs/i/n/r/large/bhawna-collection-Loard-Shiv-Trishul-SDL890408077-1-86933.jpeg"
+                    src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNsb3RoaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>bhawna collection Loard Shiv Trishul</h6>
+                  <h6>Jaipuri Dress</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 400</span>
@@ -277,14 +277,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n2.sdlcdn.com/imgs/k/k/v/large/Orpat-More-than-500W-Mixer-SDL422286131-1-12988.webp"
+                    src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGNsb3RoaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Orpat Grinder</h6>
+                  <h6>Tshirt</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 3800</span>
@@ -314,14 +314,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n3.sdlcdn.com/imgs/h/u/a/large/CXL-Titon-2-Ltr-Gravity-SDL317221601-1-71514.jpg"
+                    src="https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fEJsdWV0b290aCUyMHNwZWFrZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Electric jug</h6>
+                  <h6>Google Speaker</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 1800</span>
@@ -348,14 +348,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n2.sdlcdn.com/imgs/j/c/z/large/BOGATCHI-70-Dark-Oats-Cranberry-SDL775781137-1-9bde4.webp"
+                    src="https://images.unsplash.com/photo-1522771930-78848d9293e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8QmFieSUyMGNsb3RofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Oats Canberry</h6>
+                  <h6>Baby Dresses</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 600</span>
@@ -383,14 +383,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n4.sdlcdn.com/imgs/k/e/u/large/Veirdo-100-Cotton-Regular-Fit-SDL302182620-1-f0fac.jpg"
+                    src="https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Qmx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Regular T-shirt</h6>
+                  <h6>jbl wireless Speaker</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 200</span>
@@ -418,14 +418,14 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n3.sdlcdn.com/imgs/i/u/v/large/HeelSocks1-aeb5a.jpg"
+                    src="https://images.pexels.com/photos/13599785/pexels-photo-13599785.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Heel Socks</h6>
+                  <h6>Dr pepper</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 500</span>
@@ -454,17 +454,162 @@ export const SliderCard = () => {
               <div className="product-thumb">
                 <a href="#">
                   <img
-                    src="https://n1.sdlcdn.com/imgs/k/e/u/large/Veirdo-100-Cotton-Regular-Fit-SDL051246309-1-51a91.jpg"
+                    src="https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Rwatch"
                   />
                 </a>
               </div>
               <div className="product-body">
                 <div className="title">
-                  <h6>Cotton T-shirt</h6>
+                  <h6>Table Lamp</h6>
                 </div>
                 <div className="price">
                   <span>Rs- 100</span>
+                </div>
+                <div className="rating">
+                  <div className="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <div className="footer">
+                  <div className="btn">
+                    <a href="#" className="btn-custom primary">
+                      Add To Cart
+                    </a>
+                    <a href="#" className="btn-custom primary">
+                      Quick View
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="product-thumb">
+                <a href="#">
+                  <img
+                    src="https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80"
+                    alt="Rwatch"
+                  />
+                </a>
+              </div>
+              <div className="product-body">
+                <div className="title">
+                  <h6>eleganzze Sweater</h6>
+                </div>
+                <div className="price">
+                  <span>Rs- 300</span>
+                </div>
+                <div className="rating">
+                  <div className="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <div className="footer">
+                  <div className="btn">
+                    <a href="#" className="btn-custom primary">
+                      Add To Cart
+                    </a>
+                    <a href="#" className="btn-custom primary">
+                      Quick View
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* product-6 */}
+            <div className="product">
+              <div className="product-thumb">
+                <a href="#">
+                  <img
+                    src="https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE2fHxwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="Rwatch"
+                  />
+                </a>
+              </div>
+              <div className="product-body">
+                <div className="title">
+                  <h6>Fossil Watch</h6>
+                </div>
+                <div className="price">
+                  <span>Rs- 2800</span>
+                </div>
+                <div className="rating">
+                  <div className="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <div className="footer">
+                  <div className="btn">
+                    <a href="#" className="btn-custom primary">
+                      Add To Cart
+                    </a>
+                    <a href="#" className="btn-custom primary">
+                      Quick View
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* product-7 */}
+            <div className="product">
+              <div className="product-thumb">
+                <a href="#">
+                  <img
+                    src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNsb3RoaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="Rwatch"
+                  />
+                </a>
+              </div>
+              <div className="product-body">
+                <div className="title">
+                  <h6>Jaipuri Dress</h6>
+                </div>
+                <div className="price">
+                  <span>Rs- 400</span>
+                </div>
+                <div className="rating">
+                  <div className="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <div className="footer">
+                  <div className="btn">
+                    <a href="#" className="btn-custom primary">
+                      Add To Cart
+                    </a>
+                    <a href="#" className="btn-custom primary">
+                      Quick View
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* product-8 */}
+            <div className="product">
+              <div className="product-thumb">
+                <a href="#">
+                  <img
+                    src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGNsb3RoaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="Rwatch"
+                  />
+                </a>
+              </div>
+              <div className="product-body">
+                <div className="title">
+                  <h6>Tshirt</h6>
+                </div>
+                <div className="price">
+                  <span>Rs- 3800</span>
                 </div>
                 <div className="rating">
                   <div className="star">

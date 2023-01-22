@@ -1,5 +1,6 @@
 import { LastImage } from "../components/LastImage";
-
+import { Link as Routerlink } from "react-router-dom";
+import Navbar from "../components/Navbar";
 import React, { useState } from "react";
 import {
   Box,
@@ -24,6 +25,7 @@ import AppStore from "../components/AppStore";
 export default function Home() {
   return (
     <>
+      <Navbar />
       <Box h="1650px" w="90%" m={"auto"}>
         <Flex
           alignItems="center"
@@ -51,16 +53,18 @@ export default function Home() {
             <Text padding={"10px"} size={"small"}>
               Login to your Snapdeal account{" "}
             </Text>
-            <Button
-              width={"120px"}
-              height={"37px"}
-              rounded="none"
-              background={"black"}
-              color={"white"}
-              _hover={{ bg: "blue" }}
-            >
-              LOGIN
-            </Button>
+            <Routerlink to="/login">
+              <Button
+                width={"120px"}
+                height={"37px"}
+                rounded="none"
+                background={"black"}
+                color={"white"}
+                _hover={{ bg: "blue" }}
+              >
+                LOGIN
+              </Button>
+            </Routerlink>
             <Box>
               <Text padding={"10px"} textAlign="left">
                 <span style={{ color: "#999999" }}>New User?</span>
