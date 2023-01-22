@@ -1,5 +1,5 @@
 import React from "react";
-import { useReducer, useEffect } from "react";
+import { useReducer, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { MdLocalShipping } from "react-icons/md";
 import axios from "axios";
@@ -51,6 +51,8 @@ const reducer = (state, action) => {
 };
 
 const ProductDetails = () => {
+  const [isAdded, setIsAdded] = useState(false);
+
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const { products, isError, isLoading } = state;
@@ -74,6 +76,7 @@ const ProductDetails = () => {
   const { image, description, price } = products;
 
   const handleAddToCart = () => {
+    setIsAdded(true);
     let data = JSON.parse(localStorage.getItem("CartData")) || [];
     data = [...data, products];
     localStorage.setItem("CartData", JSON.stringify(data));
@@ -248,6 +251,7 @@ const ProductDetails = () => {
                 >
                   Add to cart
                 </Button>
+
                 <Button
                   rounded={"none"}
                   w={"200px"}
@@ -269,6 +273,17 @@ const ProductDetails = () => {
                   />
                 </Button>
               </Stack>
+              {isAdded && (
+                <p
+                  style={{
+                    color: "brown",
+                    fontSize: "24px",
+                    marginLeft: "-80px",
+                  }}
+                >
+                  Product added to cart successfully!
+                </p>
+              )}
 
               <Stack
                 direction="row"

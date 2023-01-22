@@ -59,10 +59,10 @@ function Checkout() {
           );
         })}
         <Box
-          marginLeft={"1500px"}
+          marginLeft={"250px"}
           border={"1px solid red"}
-          marginTop={"-200px"}
-          w={"280px"}
+          // marginTop={"-200px"}
+          w={"580px"}
           bg={"darksalmon"}
         >
           <Box p={5} shadow="md" borderWidth="5px">
@@ -72,7 +72,7 @@ function Checkout() {
             <Routerlink to="/modelmsg">
               <Button
                 bg={"darkcyan"}
-                marginTop={"60px"}
+                marginLeft={"50px"}
                 _hover={{ bg: "green.500", fontSize: "xl", color: "black" }}
                 color={"wheat"}
                 variantColor="green"
