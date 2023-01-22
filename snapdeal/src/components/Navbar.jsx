@@ -1,11 +1,12 @@
-import { ReactNode } from "react";
-import { FaUserCircle } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
 import { FaDropbox } from "react-icons/fa";
-// import { FaRegUser } from "react-icons/fa";
 import { FiHeart } from "react-icons/fi";
 import { SearchIcon } from "@chakra-ui/icons";
+
+import { Link as Routerlink } from "react-router-dom";
+import { useState, useEffect } from "react";
+
 import {
   Box,
   Flex,
@@ -46,8 +47,24 @@ const NavLink = ({ children }) => (
 );
 
 export default function Navbar() {
+  // function handleLogin() {
+  //   <Routerlink to="/login" />;
+  // }
+  // function handleRegiter() {
+  //   <Routerlink to="/register" />;
+  // }
+
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const [itemsNo, setitemNo] = useState(0);
+  const getcartData = () => {
+    const cartData = JSON.parse(localStorage.getItem("CartData")) || [];
+    setitemNo(cartData.length);
+  };
+  useEffect(() => {
+    getcartData();
+  }, []);
   return (
     <>
       <Box bg={useColorModeValue("red.700", "red.600")} px={14} h={"30px"}>
@@ -126,6 +143,11 @@ export default function Navbar() {
         </Flex>
       </Box>
       <Box
+        as="nav"
+        position="sticky"
+        top={0}
+        zIndex={1}
+        p={4}
         bg={useColorModeValue("red.500", "red.400")}
         paddingTop={"7px"}
         px={1}
@@ -133,10 +155,12 @@ export default function Navbar() {
       >
         <Flex h={16} alignItems={"center"} justifyContent={"space-around"}>
           <Box>
-            <img
-              src="https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg"
-              alt="team"
-            />
+            <Routerlink to="/">
+              <img
+                src="https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg"
+                alt="team"
+              />
+            </Routerlink>
           </Box>
           <Stack direction={""} spacing={2}>
             <Box w={"500px"} spacing={2}>
@@ -231,33 +255,42 @@ export default function Navbar() {
                     </Text>
                   </Center>
                   <Center>
-                    <Button
-                      _hover={{ bg: "red.500" }}
-                      background={"none"}
-                      color={"white"}
-                    >
-                      Register
-                    </Button>
+                    <Routerlink to="/register">
+                      <Button
+                        _hover={{ bg: "red.500" }}
+                        background={"none"}
+                        color={"white"}
+                        // onClick={() => <RouterLink to="/register" />}
+                      >
+                        Register
+                      </Button>
+                    </Routerlink>
                   </Center>
                   <Center>
-                    <Button
-                      _hover="none"
-                      color={"white"}
-                      width={"150px"}
-                      background={"red.600"}
-                    >
-                      Login
-                    </Button>
+                    <Routerlink to="/login">
+                      <Button
+                        _hover="none"
+                        color={"white"}
+                        width={"150px"}
+                        background={"red.600"}
+                        // onClick={handleLogin}
+                      >
+                        Login
+                      </Button>
+                    </Routerlink>
                   </Center>
                 </MenuList>
               </Menu>
               <Flex marginLeft={"20px"}>
-                <Button _hover="none" color={"white"} background={"none"}>
-                  <Box fontSize={"18px"} fontWeight={"400"}>
-                    Cart
-                  </Box>
-                  <Box fontWeight={"300"} as={FiShoppingCart} size={"22"} />
-                </Button>
+                <Routerlink to="/checkout">
+                  <Button _hover="none" color={"white"} background={"none"}>
+                    <Box fontSize={"18px"} fontWeight={"400"}>
+                      Cart
+                    </Box>
+                    <Box fontWeight={"300"} as={FiShoppingCart} size={"22"} />
+                    {itemsNo}
+                  </Button>
+                </Routerlink>
               </Flex>
             </Stack>
           </Flex>

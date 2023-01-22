@@ -8,27 +8,19 @@ import Home from './pages/Home';
 import { SliderCard } from './components/SliderCard';
 import Login from './pages/Login';
 import Register from './pages/Register';
-
-
-
-
-
-
+import AllRoutes from './components/AllRoutes';
+import Checkout from './pages/Checkout';
+import Loader from './components/Loader';
 
 
 function App() {
   return (
     <div className="App">
+      
+   <AllRoutes />
+   <Footer />
+   
 
-       {/* <Navbar/>
-    <Home />
-      <Footer />  */}
-   {/* <Login /> */}
-   <Register />
-    
-
-    
- 
     </div>
   );
 }
